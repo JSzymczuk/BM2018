@@ -1,0 +1,133 @@
+
+
+
+Statystyki:
+- Wytrzymałość:     Kiedy postać utraci całą swoją wytrzymałość, zostanie pokonana.
+- Energia magiczna: Energia magiczna umożliwia rzucanie zaklęć i uroków.
+- Skupienie:        Skupienie określa szanse wystąpienia efektów krytycznych rzucanych zaklęć i uroków. 
+- Moc magiczna:     Moc magiczna determinuje siłę oraz czas działania używanych zaklęć i uroków.
+- Odporność:        Odporność wpływa na wielkość obrażeń i czas działania efektów powodowanych przez wrogie ataki.
+- Refleks:          Wyższy refleks zwiększa szanse na uniknięcie ataku oraz pierwszeństwo jego wykonania.
+- Inteligencja:		Inteligencja odpowiada za maksymalną liczbę jednocześnie używanych rodzajów zaklęć i uroków.
+
+W trakcie walki:
+Hp
+MaxHp
+Mp
+MaxMp
+Focus
+BaseFocus
+MaxFocus
+BasePower
+BaseResistance
+BaseEffectResistance
+BaseInitiative
+BaseEvasion
+
+Mikstury:
+- pasywna regeneracja wytrzymałości
+- pasywna regeneracja energii magicznej
+- natychmiastowa regeneracja wytrzymałości
+- natychmiastowa regeneracja energii magicznej
+- zwiększający moc magiczną
+
+Efekty:
+- medytacja:    nie można rozproszyć, przytywny, na początku następnej tury jednostka odzyska manę (i wytrzymałość)
+- podpalenie:   przez pewien czas obrażenia od ognia
+- zamrożenie:   brak możliwości wykonania akcji, rozpatrywane na początku tury
+- ogłuszenie:   nie można rozproszyć, brak możliwości wykonania akcji, znika po zakończeniu tury
+- spowolnienie
+- kamienna skóra
+- magiczne kajdany
+- przywołany
+- skamieniały
+- mikstura życia
+- mikstura many
+- mikstura mocy
+
+
+Zaklęcia:
+Rozproszenie magii
+Wyssanie życia
+Kamienna skóra
+Kula ognia
+Lodowy pocisk
+Salwa energii
+Rozwidlona błyskawica
+Przyzwanie żywiołaka wody
+Spalenie mocy
+Deszcz siarki
+
+Uroki:
+Magiczne kajdany
+Skamienienie
+Spowolnienie
+Oślepienie 
+Magiczna zaraza
+
+
+Medytacja:
+	Poziom 1: +regeneracja many
+	Poziom 2: +regeneracja many, zmniejszenie obrażeń od następnego ciosu
+	Poziom 3: +regeneracja many, zmniejszenie obrażeń od następnego ciosu, +regeneracja wytrzymałości
+
+Rozproszenie magii:
+Poziom 1:
+	rozproszenie losowego efektu z celu;
+	obrażenia dla przywołanych istot
+Poziom 2:
+	rozproszenie wszystkich negatywnych z sojusznika 
+	lub wszystkich pozytywnych z przeciwnika; obrażenia dla przywołanych istot
+Poziom 3:
+	rozproszenie negatywnych efektów z wszystkich sojuszników
+	oraz pozytywnych efektów z wszystkich przeciwników; 
+	obrażenia dla przywołanych istot
+
+Kula ognia: może wywołać podpalenie oraz ogłuszenie
+Lodowy pocisk: może wywołać zamrożenie
+Salwa energii: losowa liczba pocisków
+Rozwidlona błyskawica: obrażenia we wszystkich przeciwników
+Deszcz siarki: obrażenia we wszystkich przeciwników, wywołuje podpalenie
+Skamienienie: cel nie może wykonywać akcji
+Oślepienie: ataki celu mogą chybiać
+
+Wyssanie życia
+Spalenie mocy: obrażenia zadawane są do many
+
+Magiczne kajdany: zmiejsza moc magiczną
+Kamienna skóra:   podnosi odporność na magię
+Spowolnienie:
+	Poziom 1: obniża refleks
+	Poziom 2: obniża refleks oraz szansę wystąpienia efektów krytycznych
+	Poziom 3: obniża refleks oraz szansę wystąpienia efektów krytycznych (działa na wszystkich przeciwników)
+
+Przyzwanie żywiołaka wody
+
+
+Przyzwanie żywiołaka powietrza
+Piekielny płomień
+Ożywienie martwych
+Mroczny rytuał: zniszcz sojuszniczego nieumarłego i odzyskaj punkty wytrzymałości
+
+Ataki stworzeń (nie pokazuj nazwy):
+- Pocisk wody
+- Strzał błyskawicą
+- Atak ożywieńca
+
+
+Fabuła:
+Magowie z pewnego zgrupowania od wieków strzegą zwoju z jakąś pradawną destrukcyjną magią. Zgrupowanie to szkoli magów mających strzec sekretów dawnej magii oraz utrzymywać pokój w krainie. Jesteś młodym magiem, który właśnie ukończył swoje szkolenie.
+- odblokowany tryb fabuły -
+Poziom 1: Zbuntowany żywiołak - Jeden z magów stracił kontrolę nad przyzwanym żywiołakiem. Ty i arcymistrz musicie go pokonać.
+Poziom 2: Organizowany będzie turniej wyboru nowego arcymistrza. Ze swoim przyjacielem postanawiacie poćwiczyć.
+- odblokowany trening -
+- odblokowany sklep -
+Poziom 3: Turniej - runda 1
+Poziom 4: Turniej - runda 2
+Poziom 5: Atak mrocznych sługusów.
+Poziom 6: Wystawiono patrole wokół zamku. Zauważasz podejrzanego maga. Walka z czarnoksiężnikiem z klanu.
+Poziom 7: Czarnoksiężnicy wdarli się do zamku. Musicie połączyć siły, aby ich pokonać.
+Poziom 8: Rozdzielacie się, aby zapewnić arcymistrzowi czas do odprawienia rytuału ochronnego. Walka z czarnoksiężnikiem-bossem.
+Poziom 9: To arcymistrz wpuścił czarnoksiężników. Walka z arcymistrzem.
+Poziom 10: Zostałeś jedynym na placu boju. Rytuał dobiegł końca. Boss czarnoksiężk zamienia się w licza.
+Wszyscy inni polegli. Zabierasz sekrety ze sobą i wyruszasz, aby założyć nowe zgrupowanie.
